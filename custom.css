@@ -198,3 +198,53 @@ a:hover.product-title{
 .shop-nav-link{
 	font-size: 14px !important;
 }
+
+.checkout-steps{
+	width: 100%;
+}
+
+.ui.steps .step.active .title{
+	color: #E03997 !important;
+}
+.ch-title{
+ 	color: #E03997;
+}
+.checkout-products{
+	padding: 0px 10px;
+}
+
+.checkout-table thead{
+	text-align: center;
+}
+
+.ch-icon{
+	float: right;
+	color: black;
+}
+
+.ch-customwidth{
+	width: 20%;
+}
+
+.checkout-table input{
+	width: 10%;
+}
+
+.checkout-table .peso-sign{
+	float: left;
+}
+
+.ui.positive.message.grandtotal-msg{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.grandtotal-num{
+	float: right;
+}
+
+.btn-billing{
+	float: right;
+	margin-right: 10px !important;
+}

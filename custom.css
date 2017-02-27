@@ -37,6 +37,7 @@ body{
 }
 
 .right-container{
+	padding: 10px;
 	margin-left: 20%;
 	max-width: 100%;
 }
@@ -85,7 +86,6 @@ body{
 }
 
 .shop-nav{
-	padding: 10px;
 	margin-bottom: 20px;
 }
 
@@ -164,7 +164,7 @@ a:hover.product-title{
 
 }
 
-.product-price{
+.product-price, .product-total{
 	font-weight: 500;
 	font-size: 16px;
 	
@@ -234,7 +234,7 @@ a:hover.product-title{
 	float: left;
 }
 
-.ui.positive.message.grandtotal-msg{
+.ui.green.message.grandtotal-msg{
 	margin-left: 10px;
 	margin-right: 10px;
 	font-size: 16px;
@@ -247,4 +247,52 @@ a:hover.product-title{
 .btn-billing{
 	float: right;
 	margin-right: 10px !important;
+}
+
+.billing-container{
+	margin: 0px !important;
+}
+
+.product-qty-billing{
+	/*margin: 0px !important;
+    margin-top: 7px !important;
+    margin-left: 5px !important;*/
+	display: inline;
+	/*float: right;*/
+	color: black;
+	font-size: 14px;
+
+
+}
+.product-qty-billing input{
+	/*margin-left: 5px;*/
+    width: 20px;
+    text-align: center;
+    border: none;
+}
+
+
+.order-info{
+	padding: 10px !important;
+}
+.order-info .product-total{
+	float: right;
+}
+
+.order-info .grandtotal-msg{
+	margin: 0px !important;
+	margin-top: 10px !important;
+}
+
+.order-info .content{
+	font-size: 12px;
+}
+
+.btn-steps-container{
+	float: right;
+}
+
+.btn-bck2shop{
+	float: right !important;
+	margin-top: 10px !important;
 }

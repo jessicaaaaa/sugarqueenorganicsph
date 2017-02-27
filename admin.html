@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sugarqueen Organics PH - Admin Dashboard</title>
+
+	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="semantic.min.css">
+</head>
+<body>
+<div class="sidebar">
+<div class="logo-container">
+<div class="logo-text">
+	<h3>Sugarqueen Organics PH</h3>
+	<p>Admin Dashboard</p>
+</div>
+</div>
+<div class="ui inverted vertical menu admin-menu">
+		<a class="active item">
+			Inbox
+			<div class="ui teal left pointing label">1</div>
+		</a>
+		<a class="item">
+			Order List
+			<div class="ui red label">51</div>
+		</a>
+		<a class="item">
+			Manage Posts
+		</a>
+		<a class="item" href="admin-login.html">
+			Log Out
+		</a>
+
+	</div>
+</div>
+<div class="right-container">
+<div class="ui inverted segment">
+  <div class="ui inverted secondary pointing menu">
+    <a class="active item">
+      New
+    </a>
+    <a class="item">
+      Read
+    </a>
+    <a class="item">
+      Unread
+    </a>
+  </div>
+</div>
+	<div class="ui grid">
+		<div class="five wide column">
+			<div class="ui segments">
+				<div class="ui segment">
+					<div class="msg-info">
+						<p class="msg-from"><b>From:</b> Jessica Gavino</p>
+						<p class="msg-dt"><b>DD/MM/YYYY</b></p>
+						<p class="ui blue msg-time"><b>5:00 PM</b></p>
+					</div>
+					<div class="action-btns">
+						<button id="reply-modal" class="tiny ui blue button">Reply</button>
+					</div>
+				</div>
+				<div class="ui secondary segment msg-content">
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				</div>
+			</div>
+		</div>
+		<div class="five wide column">
+			<div class="ui segments">
+				<div class="ui segment">
+					<div class="msg-info">
+						<p class="msg-from"><b>From:</b> Jessica Gavino</p>
+						<p class="msg-dt"><b>DD/MM/YYYY</b></p>
+						<p class="ui blue msg-time"><b>5:00 PM</b></p>
+					</div>
+					<div class="action-btns">
+						<button class="tiny ui blue button">Reply</button>
+					</div>
+				</div>
+				<div class="ui secondary segment msg-content">
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				</div>
+			</div>
+		</div>
+		<div class="five wide column">
+			<div class="ui segments">
+				<div class="ui segment">
+					<div class="msg-info">
+						<p class="msg-from"><b>From:</b> Jessica Gavino</p>
+						<p class="msg-dt"><b>DD/MM/YYYY</b></p>
+						<p class="ui blue msg-time"><b>5:00 PM</b></p>
+					</div>
+					<div class="action-btns">
+						<button class="tiny ui blue button">Reply</button>
+					</div>
+				</div>
+				<div class="ui secondary segment msg-content">
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+<div id="modal-div" class="ui modal reply-modal-content">
+	<div class="ui form">
+	<div class="field admin-reply-field">
+			<label>Message</label>
+			<textarea rows="3" placeholder="Your message here..." id="admin-reply"></textarea>
+			<button id="modal-close" class="tiny ui blue button btn-sendmsg">Send</button>
+		</div>
+
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="custom-script.js"></script>
+
+<script type="text/javascript" src="semantic.min.js"></script>
+</html>

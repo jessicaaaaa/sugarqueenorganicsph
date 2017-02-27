@@ -296,3 +296,49 @@ a:hover.product-title{
 	float: right !important;
 	margin-top: 10px !important;
 }
+
+.logo-text{
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+.logo-text h3{
+	margin: 0px;
+}
+
+.admin-menu{
+	position: relative;
+	width: 100% !important;
+/*	height: 50% !important;*/
+	/*top: 40% !important;*/
+	border-radius: none !important;
+}
+
+/*.msg-from{
+	float: left;
+}
+
+.msg-date{
+	float: right;
+}*/
+.msg-info{
+	display: inline-block;
+	width: 50%;
+}
+.msg-info p{
+	margin: 0px !important;
+}
+
+.action-btns{
+	float: right;
+}
+
+.reply-modal-content{
+	padding: 15px;
+}
+
+.btn-sendmsg{
+	margin-top: 10px !important;
+	float: right;
+}

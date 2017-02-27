@@ -18,4 +18,21 @@ $(document).ready(function(){
 	$('#product-modal2').click(function(){
         $('#modal-div').modal('show');    
      });
+
+	$('#reply-modal').click(function(){
+        $('#modal-div').modal('show');    
+     });
+	$('#modal-close').click(function(){
+		if($("#admin-reply").val() == ''){
+			$('.ui.form').find('.admin-reply-field').addClass('error');
+		} else {
+			$("#admin-reply").val('');
+			$('.ui.form').find('.admin-reply-field').removeClass('error');
+			$('#modal-div').modal('hide');   
+
+		}
+         
+     });
+
+
 });  

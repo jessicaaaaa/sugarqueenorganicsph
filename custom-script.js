@@ -22,10 +22,25 @@ $(document).ready(function(){
 	$('#reply-modal').click(function(){
         $('#modal-div').modal('show');    
      });
+
+	$('#shippingdetails-modal').click(function(){
+        $('#modal-div').modal('show');    
+     });
+
+	$('#sent-confirmation-modal').click(function(){
+        $('#modal-div2').modal('show'); 
+     });
+
+	$('#btn-confirm').click(function(){
+        $('#sent-confirmation-modal').css('opacity', '0');
+        $('#or-container').css('opacity', '0');
+     });
+
+
 	$('#modal-close').click(function(){
 		if($("#admin-reply").val() == ''){
 			$('.ui.form').find('.admin-reply-field').addClass('error');
-		} else {
+		} else {("color", "red")
 			$("#admin-reply").val('');
 			$('.ui.form').find('.admin-reply-field').removeClass('error');
 			$('#modal-div').modal('hide');   

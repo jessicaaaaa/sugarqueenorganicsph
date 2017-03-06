@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sugarqueen Organics PH - Admin Dashboard</title>
+
+	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="semantic.min.css">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="logo-container">
+			<div class="logo-text">
+				<h3>Sugarqueen Organics PH</h3>
+				<p>Admin Dashboard</p>
+			</div>
+		</div>
+<div class="ui inverted vertical menu admin-menu">
+		<a class="item">
+			Inbox
+			<div class="ui teal left pointing label">1</div>
+		</a>
+		<a class="active item">
+			Order List
+			<div class="ui red label">51</div>
+		</a>
+		<a class="item">
+			Manage Posts
+		</a>
+		<a class="item" href="admin-login.html">
+			Log Out
+		</a>
+
+</div>
+</div>
+<div class="right-container">
+<div class="ui inverted segment">
+  <div class="ui inverted secondary pointing menu">
+    <a class="item" href="order-list.html">
+      Pending
+    </a>
+    <a class="active item" href="order-list-sent.html">
+      Sent
+    </a>
+   <!--  <a class="item">
+      Unread
+    </a> -->
+  </div>
+</div>
+	<div class="ui grid">
+		
+		<div class="five wide column">
+			<div id="or-container" class="ui segments">
+				<div class="ui segment">
+					<div class="or-info">
+						<p class="or-name"><b>Name:</b> Jessica Gavino</p>
+						<p class="or-dt"><b>DD/MM/YYYY</b></p>
+						<p class="ui blue or-time"><b>5:00 PM</b></p>
+					</div>
+					<div class="action-btns">
+						<button id="shippingdetails-modal" class="tiny ui blue button btn-shipping">Shipping Details</button>
+						<!-- <button id="sent-confirmation-modal" class="ui green basic button btn-or-sent"><i class="checkmark icon"></i>Sent</button> -->
+					</div>
+				</div>
+				<div class="ui secondary segment or-content">
+					<ul class="or-list">
+						<li>Honey Cold Wax x 3</li>
+						<li>Green Tea Wax x 1</li>
+					</ul>
+					<div class="ui green message or-grandtotal">
+  					
+  						Grandtotal <span class="grandtotal-num"> <div class="peso-sign">₱</div>85.00 </span>
+  					
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="modal-div" class="ui modal shippingdetails-content">
+	Shipping details goes here. Refer to billing form.
+</div>
+
+<div id="modal-div2" class="ui basic modal shippingdetails-content">
+	 <div class="ui icon header">
+    <i class="archive icon"></i>
+    Please confirm if the package is sent.
+  </div>
+  
+  <div class="actions" style="text-align: center;">
+   <!--  <div class="ui red basic cancel inverted button">
+      <i class="remove icon"></i>
+      No
+    </div> -->
+    <div id="btn-confirm" class="ui green ok inverted button">
+      <i class="checkmark icon"></i>
+      CONFIRM
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="custom-script.js"></script>
+
+<script type="text/javascript" src="semantic.min.js"></script>
+</html>

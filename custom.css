@@ -322,16 +322,24 @@ a:hover.product-title{
 .msg-date{
 	float: right;
 }*/
-.msg-info{
+.msg-info, .or-info{
 	display: inline-block;
 	width: 50%;
 }
-.msg-info p{
+.or-info{
+	display: inline-block;
+	width: 60%;
+}
+.msg-info p, .or-info p{
 	margin: 0px !important;
 }
 
 .action-btns{
 	float: right;
+}
+
+.action-btns .btn-shipping{
+	padding: 5px !important;
 }
 
 .reply-modal-content{
@@ -341,4 +349,21 @@ a:hover.product-title{
 .btn-sendmsg{
 	margin-top: 10px !important;
 	float: right;
+}
+
+.or-content{
+	padding: 0px !important;
+}
+
+.shippingdetails-content{
+	width: 50% !important;
+	left: 60% !important;
+	padding: 10px;
+}
+
+.btn-or-sent{
+	width: 97%;
+	display: block !important;
+	padding: 5px !important;
+	font-weight: 700 !important;
 }
